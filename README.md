@@ -162,20 +162,11 @@ cd path\to\your\project
 
 
 pip install -r requirements.txt
-نمونه فایل requirements.txt
-در اینجا نمونه‌ای از فایل requirements.txt آمده است:
-
-
-requests
-flask
-numpy
-pandas
 نصب Pip (در صورت عدم نصب)
 اگر pip نصب نیست، می‌توانید آن را به صورت زیر نصب کنید:
 
 دانلود get-pip.py:
 
-به این لینک بروید و فایل get-pip.py را دانلود کنید.
 https://bootstrap.pypa.io/get-pip.py
 
 اجرای get-pip.py:
@@ -195,6 +186,7 @@ https://pip.pypa.io/en/stable/installation/
 /////////////////////////////////////////////////////
 /////////////////////////////////////////////////////
 ////////////////////////////////////////////////////
+
 | English
 
 # MySQL and IIS Log Combiner
