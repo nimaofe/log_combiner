@@ -23,13 +23,13 @@ profile MySQL &amp; show logs from IIS on the same Windows server
     cd log_combiner
     ```
 
-2. بعدش، کتابخونه‌های مورد نیاز رو نصب کن:
+2. کتابخونه‌های مورد نیاز:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. حالا بسته رو نصب کن:
+3.نصب:
 
     ```bash
     python setup.py install
@@ -50,7 +50,7 @@ combine_logs(
     output_path='C:/path/to/your/combined-log.log'
 )
 تنظیمات
-می‌تونی الگوهای عبارت باقاعده رو توی combiner.py تغییر بدی تا با قالب لاگ‌های MySQL و IIS خودت هماهنگ بشه.
+می‌تونی combiner.py رو تغییر بدی تا با قالب لاگ‌های MySQL و IIS خودت هماهنگ بشه.
 
 مجوز
 این پروژه تحت مجوز MIT هست.
@@ -69,7 +69,10 @@ setup(
     author='Your Name',
     author_email='your.email@example.com',
     install_requires=[
-        # اگه کتابخونه‌های دیگه‌ای هم نیاز داشتی، اینجا اضافه کن
+ requests
+flask
+numpy
+pandas
     ],
 )
 log_combiner/init.py
